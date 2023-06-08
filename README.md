@@ -38,7 +38,7 @@ Repository ini utamanya memiliki 2 file:
 - Mobil
 
 
-![image](https://github.com/Rentaku/ML_Price_Prediction/assets/132776192/77d3edc6-78bd-4f7f-9950-df3d13ff0da7)
+![image](https://github.com/Rentaku/ML_Price_Prediction/assets/132776192/143af30c-332a-439b-8313-0b332ecb36fd)
 
 
 - Motor
@@ -52,7 +52,7 @@ Repository ini utamanya memiliki 2 file:
 -Mobil
 
 
-![image](https://github.com/Rentaku/ML_Price_Prediction/assets/132776192/e37f244c-bbe4-438f-9260-46544b286379)
+![image](https://github.com/Rentaku/ML_Price_Prediction/assets/132776192/a347169e-7935-4c23-9975-6d7a2416257f)
 
 
 - Motor
@@ -64,13 +64,13 @@ Repository ini utamanya memiliki 2 file:
 3. Table of relevant in loss and RSquared
 - Mobil
 +----+----------------+--------------+
-|    | Metric         |        Value | 
-|----+----------------+--------------| 
-|  0 | Loss           | 58082.7      | 
-|  1 | R-Squared      |     0.769823 | 
-|  2 | Val_Loss       | 75778.4      | 
-|  3 | Val_RS-Squared |     0.570001 | 
-+----+----------------+--------------+ 
+|    | Metric         |        Value |
+|----+----------------+--------------|
+|  0 | Loss           | 58429.3      |
+|  1 | R-Squared      |     0.776639 |
+|  2 | Val_Loss       | 78986.9      |
+|  3 | Val_RS-Squared |     0.574143 |
++----+----------------+--------------+
 
 - Motor
 +----+----------------+--------------+
