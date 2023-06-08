@@ -63,14 +63,14 @@ Repository ini utamanya memiliki 2 file:
 
 3. Result of loss and RSquared
 - Mobil
-  0  Loss            58429.3      
-  1  R-Squared           0.776639 
-  2  Val_Loss        78986.9      
-  3  Val_RS-Squared      0.574143 
+0  Loss            58429.3      
+1  R-Squared       0.776639 
+2  Val_Loss        78986.9      
+3  Val_RS-Squared  0.574143 
 
 
 - Motor
-  0  Loss            19678.1      
-  1  R-Squared           0.649843 
-  2  Val_Loss        27285.8      
-  3  Val_RS-Squared      0.66169  
+0  Loss            19678.1      
+1  R-Squared       0.649843 
+2  Val_Loss        27285.8      
+3  Val_RS-Squared  0.66169  
