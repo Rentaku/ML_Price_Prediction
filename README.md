@@ -48,6 +48,7 @@ Repository ini utamanya memiliki 2 file:
 
 
 2. Plot the RSquared of the model in the epoch. As the opposite of loss, the the plot is for RSquared of both the train set and the test set should increase in each epoch. After plotting, check the graph. Does the RSquared continue to increase or unstable and if it continues to increase, the the model is good-fit.
+
 -Mobil
 
 
@@ -58,3 +59,24 @@ Repository ini utamanya memiliki 2 file:
 
 
 ![image](https://github.com/Rentaku/ML_Price_Prediction/assets/132776192/2f61fe01-ccbb-47d6-9ef3-73821a661b57)
+
+
+3. Table of relevant in loss and RSquared
+- Mobil
++----+----------------+--------------+
+|    | Metric         |        Value |
+|----+----------------+--------------|
+|  0 | Loss           | 58082.7      |
+|  1 | R-Squared      |     0.769823 |
+|  2 | Val_Loss       | 75778.4      |
+|  3 | Val_RS-Squared |     0.570001 |
++----+----------------+--------------+
+- Motor
++----+----------------+--------------+
+|    | Metric         |        Value |
+|----+----------------+--------------|
+|  0 | Loss           | 19760.9      |
+|  1 | R-Squared      |     0.650116 |
+|  2 | Val_Loss       | 26543.9      |
+|  3 | Val_RS-Squared |     0.62809  |
++----+----------------+--------------+
