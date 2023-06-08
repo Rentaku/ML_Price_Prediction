@@ -61,23 +61,16 @@ Repository ini utamanya memiliki 2 file:
 ![image](https://github.com/Rentaku/ML_Price_Prediction/assets/132776192/b0b40e79-2a6f-475b-92e2-0520acb4be30)
 
 
-3. Table of relevant in loss and RSquared
+3. Result of loss and RSquared
 - Mobil
-+----+----------------+--------------+
-|    | Metric         |        Value |
-|----+----------------+--------------|
-|  0 | Loss           | 58429.3      |
-|  1 | R-Squared      |     0.776639 |
-|  2 | Val_Loss       | 78986.9      |
-|  3 | Val_RS-Squared |     0.574143 |
-+----+----------------+--------------+
+  0  Loss            58429.3      
+  1  R-Squared           0.776639 
+  2  Val_Loss        78986.9      
+  3  Val_RS-Squared      0.574143 
+
 
 - Motor
-+----+----------------+--------------+
-|    | Metric         |        Value |
-|----+----------------+--------------|
-|  0 | Loss           | 19678.1      |
-|  1 | R-Squared      |     0.649843 |
-|  2 | Val_Loss       | 27285.8      |
-|  3 | Val_RS-Squared |     0.66169  |
-+----+----------------+--------------+
+  0  Loss            19678.1      
+  1  R-Squared           0.649843 
+  2  Val_Loss        27285.8      
+  3  Val_RS-Squared      0.66169  
