@@ -34,7 +34,7 @@ Repository ini utamanya memiliki 2 file:
 5. Model akan dijalankan sebanyak 100x iterasi untuk berusaha mencapai performa terbaik yang bisa diperoleh dari arsitektur yang dibuat.
 
 ### Evaluation
-1. Plot the accuracy of the model in the epoch. The plot is for the loss of both the train set and the test set. After plotting, check the graph. Does the loss continue to decrease or unstable and if it continues to decrese, the the model is good-fit.
+1. Plot the loss of the model in the epoch. The plot is for the loss of both the train set and the test set. After plotting, check the graph. Does the loss continue to decrease or unstable and if it continues to decrese, the the model is good-fit.
 - Mobil
 
 
@@ -44,7 +44,7 @@ Repository ini utamanya memiliki 2 file:
 - Motor
 
 
-![image](https://github.com/Rentaku/ML_Price_Prediction/assets/132776192/37e768a1-ff8d-4535-a616-074f101f8dbd)
+![image](https://github.com/Rentaku/ML_Price_Prediction/assets/132776192/d14d3f00-47b5-4e77-bde7-c5bb09040c41)
 
 
 2. Plot the RSquared of the model in the epoch. As the opposite of loss, the the plot is for RSquared of both the train set and the test set should increase in each epoch. After plotting, check the graph. Does the RSquared continue to increase or unstable and if it continues to increase, the the model is good-fit.
@@ -58,7 +58,7 @@ Repository ini utamanya memiliki 2 file:
 - Motor
 
 
-![image](https://github.com/Rentaku/ML_Price_Prediction/assets/132776192/2f61fe01-ccbb-47d6-9ef3-73821a661b57)
+![image](https://github.com/Rentaku/ML_Price_Prediction/assets/132776192/b0b40e79-2a6f-475b-92e2-0520acb4be30)
 
 
 3. Table of relevant in loss and RSquared
@@ -75,8 +75,8 @@ Repository ini utamanya memiliki 2 file:
 +----+----------------+--------------+
 |    | Metric         |        Value |
 |----+----------------+--------------|
-|  0 | Loss           | 19760.9      |
-|  1 | R-Squared      |     0.650116 |
-|  2 | Val_Loss       | 26543.9      |
-|  3 | Val_RS-Squared |     0.62809  |
+|  0 | Loss           | 19678.1      |
+|  1 | R-Squared      |     0.649843 |
+|  2 | Val_Loss       | 27285.8      |
+|  3 | Val_RS-Squared |     0.66169  |
 +----+----------------+--------------+
