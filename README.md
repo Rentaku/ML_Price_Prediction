@@ -34,14 +34,27 @@ Repository ini utamanya memiliki 2 file:
 5. Model akan dijalankan sebanyak 100x iterasi untuk berusaha mencapai performa terbaik yang bisa diperoleh dari arsitektur yang dibuat.
 
 ### Evaluation
+1. Plot the accuracy of the model in the epoch. The plot is for the loss of both the train set and the test set. After plotting, check the graph. Does the loss continue to decrease or unstable and if it continues to decrese, the the model is good-fit.
 - Mobil
 
 
 ![image](https://github.com/Rentaku/ML_Price_Prediction/assets/132776192/77d3edc6-78bd-4f7f-9950-df3d13ff0da7)
-![image](https://github.com/Rentaku/ML_Price_Prediction/assets/132776192/e37f244c-bbe4-438f-9260-46544b286379)
+
 
 - Motor
 
 
 ![image](https://github.com/Rentaku/ML_Price_Prediction/assets/132776192/37e768a1-ff8d-4535-a616-074f101f8dbd)
+
+
+2. Plot the RSquared of the model in the epoch. As the opposite of loss, the the plot is for RSquared of both the train set and the test set should increase in each epoch. After plotting, check the graph. Does the RSquared continue to increase or unstable and if it continues to increase, the the model is good-fit.
+-Mobil
+
+
+![image](https://github.com/Rentaku/ML_Price_Prediction/assets/132776192/e37f244c-bbe4-438f-9260-46544b286379)
+
+
+- Motor
+
+
 ![image](https://github.com/Rentaku/ML_Price_Prediction/assets/132776192/2f61fe01-ccbb-47d6-9ef3-73821a661b57)
