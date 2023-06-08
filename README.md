@@ -1,26 +1,25 @@
 # ML_Price_Prediction
 
 ### Summary
-Price Prediction Model adalah sebuah model yang berguna untuk memprediksi harga kendaraan berdasarkan fitur kendaraan yang diinput, dimana apabila pengguna memasukan data kendaraannya maka model akan memberikan output berupa rekomendasi harga yang cocok untuk pengguna gunakan dalam menyewakan kendaraannya.
+Price Prediction Model is a model that is useful for predicting vehicle prices based on the vehicle features that are input, where if the user enters the vehicle data, the model will provide output in the form of price recommendations that are suitable for users to use in renting their vehicles.
 
-Repository ini utamanya memiliki 2 file:
-1. **tf_car_price_prediction.ipynb** yang digunakan untuk memprediksi rekomendasi harga untuk mobil berdasarkan 6 input yaitu mileage, brand, model, category, tahun, dan gear_box_type
-2. **tf_motobike_price_prediction.ipynb** yang digunakan untuk memprediksi rekomendasi harga untuk motor berdasarkan 5 input yaitu mileage, brand, model, tahun, dan cc
+This repository mainly has 2 files:
+1. **tf_car_price_prediction.ipynb** which is used to predict price recommendations for cars based on 6 inputs, namely mileage, brand, model, category, year, and gear_box_type
+2. **tf_motorbike_price_prediction.ipynb** which is used to predict price recommendations for motorbikes based on 5 inputs namely mileage, brand, model, year and cc
 
-## 1. tf_car_price_prediction.ipynb
-### Bagaimana cara membuat model?
-1. Load dataset dari repository ML_Price_prediction/characteristic.csv using pandas
-2. Melakukan eksplorasi terhadap data dengan melihat segala informasinya
-3. Melakukan proses cleaning dan preprocessing seperti drop kolom, mengubah tipe data, slicing, menghapus missing value, membersihkan outlier, melakukan transformasi data, dan melakukan normalisasi
+### How do I create a model?
+1. Load dataset from repository ML_Price_prediction/characteristic.csv using pandas
+2. Exploring the data by looking at all the information
+3. Perform cleaning and preprocessing processes such as dropping columns, changing data types, slicing, removing missing values, cleaning outliers, performing data transformations, and performing normalization
 
-### Data Preparation for Modelling
-1. Fitur pada data akan dipisah kedalam 2 variabel yaitu variabel predictor (X) dan variabel output (y)
-2. Data yang sudah di proses akan dibagi dan diacak menggunakan bantuan library sklearn.model_selection.train_test_split menjadi 2 bagian yaitu data training dan data testing
+### Data Preparation for Modeling
+1. Features in the data will be separated into 2 variables, namely the predictor variable (X) and the output variable (y)
+2. The data that has been processed will be divided and randomized using the help of the sklearn.model_selection.train_test_split library into 2 parts, namely training data and testing data
 
-### Modelling Process
-1. Define the model, arsitektur model yang digunakan adalah DNN yang terdiri dari 5 layer dengan input sebanyak 1633 fitur untuk mobil dan 207 fitur untuk motor dengan output sebanyak 1 menggunakan activation function "relu" dan bantuan regularization untuk mengatasi overfitting.
-2. Define "callbacks", arsitektur model menggunakan callbacks LearningRateScheduler yang diatur untuk mengubah learning rate dari 1e-5 dengan kelipatan 10 setiap 20x kali iterasi hingga 100 iterasi untuk mengetahui learning rate yang terbaik yang bisa dicapai oleh model.
-- Callbacks for Mobil
+### Modeling Process
+1. Define the model, the model architecture used is DNN which consists of 5 layers with 1633 input features for cars and 207 features for motorcycles with 1 output using the "relu" activation function and regularization assistance to overcome overfitting.
+2. Define "callbacks", the model architecture uses LearningRateScheduler callbacks which are set to change the learning rate from 1e-5 with a multiple of 10 every 20x iterations up to 100 iterations to find out the best learning rate that can be achieved by the model.
+- Callbacks for Cars
 
 
 ![image](https://github.com/Rentaku/ML_Price_Prediction/assets/132776192/75710522-184f-483d-a0d1-bc2dc92366d0)
@@ -30,8 +29,8 @@ Repository ini utamanya memiliki 2 file:
 ![image](https://github.com/Rentaku/ML_Price_Prediction/assets/132776192/ba146538-7ceb-4ef7-94e6-0d6d6f4b2790)
 
 
-4. Define compile, arsitektur model menggunakan optimizers adam, dengan 'mean_absolute_error' sebagai loss function, dan menggunakan metric RSquared untuk mengukur seberapa baik kualitas model terhadap data.
-5. Model akan dijalankan sebanyak 100x iterasi untuk berusaha mencapai performa terbaik yang bisa diperoleh dari arsitektur yang dibuat.
+4. Define compile, model architecture using optimizers adam, with 'mean_absolute_error' as a loss function, and using the RSquared metric to measure how good the quality of the model is to the data.
+5. The model will be run for 100x iterations to try to achieve the best performance that can be obtained from the architecture created.
 
 ### Evaluation
 1. Plot the loss of the model in the epoch. The plot is for the loss of both the train set and the test set. After plotting, check the graph. Does the loss continue to decrease or unstable and if it continues to decrese, the the model is good-fit.
@@ -63,14 +62,14 @@ Repository ini utamanya memiliki 2 file:
 
 3. Result of loss and RSquared
 - Mobil
-0  Loss            58429.3      
-1  R-Squared       0.776639 
-2  Val_Loss        78986.9      
-3  Val_RS-Squared  0.574143 
+1  Loss            58429.3      
+2  R-Squared       0.776639 
+3  Val_Loss        78986.9      
+4  Val_RS-Squared  0.574143 
 
 
 - Motor
-0  Loss            19678.1      
-1  R-Squared       0.649843 
-2  Val_Loss        27285.8      
-3  Val_RS-Squared  0.66169  
+1  Loss            19678.1      
+2  R-Squared       0.649843 
+3  Val_Loss        27285.8      
+4  Val_RS-Squared  0.66169  
