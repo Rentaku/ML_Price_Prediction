@@ -28,14 +28,20 @@ Repository ini utamanya memiliki 2 file:
 
 
 ![image](https://github.com/Rentaku/ML_Price_Prediction/assets/132776192/ba146538-7ceb-4ef7-94e6-0d6d6f4b2790)
+
+
 4. Define compile, arsitektur model menggunakan optimizers adam, dengan 'mean_absolute_error' sebagai loss function, dan menggunakan metric RSquared untuk mengukur seberapa baik kualitas model terhadap data.
 5. Model akan dijalankan sebanyak 100x iterasi untuk berusaha mencapai performa terbaik yang bisa diperoleh dari arsitektur yang dibuat.
 
 ### Evaluation
 - Mobil
+
+
 ![image](https://github.com/Rentaku/ML_Price_Prediction/assets/132776192/77d3edc6-78bd-4f7f-9950-df3d13ff0da7)
 ![image](https://github.com/Rentaku/ML_Price_Prediction/assets/132776192/e37f244c-bbe4-438f-9260-46544b286379)
 
 - Motor
+
+
 ![image](https://github.com/Rentaku/ML_Price_Prediction/assets/132776192/37e768a1-ff8d-4535-a616-074f101f8dbd)
 ![image](https://github.com/Rentaku/ML_Price_Prediction/assets/132776192/2f61fe01-ccbb-47d6-9ef3-73821a661b57)
