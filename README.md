@@ -63,9 +63,9 @@ This repository mainly has 2 files:
 3. Result of loss and RSquared
 - Mobil
 
-Loss            58429.3; R-Squared       0.776639; Val_Loss        78986.9; Val_RS-Squared  0.574143; 
+  Loss            58429.3; R-Squared       0.776639; Val_Loss        78986.9; Val_R-Squared  0.574143; 
  
 - Motor
  
-Loss            19678.1; R-Squared       0.649843; Val_Loss        27285.8; Val_RS-Squared  0.66169  
+  Loss            19678.1; R-Squared       0.649843; Val_Loss        27285.8; Val_R-Squared  0.66169  
     
