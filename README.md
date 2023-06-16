@@ -34,13 +34,13 @@ This repository mainly has 2 files:
 
 ### Evaluation
 1. Plot the loss of the model in the epoch. The plot is for the loss of both the train set and the test set. After plotting, check the graph. Does the loss continue to decrease or unstable and if it continues to decrese, the the model is good-fit.
-- Mobil
+- Car
 
 
 ![image](https://github.com/Rentaku/ML_Price_Prediction/assets/132776192/143af30c-332a-439b-8313-0b332ecb36fd)
 
 
-- Motor
+- Motorbike
 
 
 ![image](https://github.com/Rentaku/ML_Price_Prediction/assets/132776192/d14d3f00-47b5-4e77-bde7-c5bb09040c41)
@@ -48,24 +48,24 @@ This repository mainly has 2 files:
 
 2. Plot the RSquared of the model in the epoch. As the opposite of loss, the the plot is for RSquared of both the train set and the test set should increase in each epoch. After plotting, check the graph. Does the RSquared continue to increase or unstable and if it continues to increase, the the model is good-fit.
 
--Mobil
+- Car
 
 
 ![image](https://github.com/Rentaku/ML_Price_Prediction/assets/132776192/a347169e-7935-4c23-9975-6d7a2416257f)
 
 
-- Motor
+- Motorbike
 
 
 ![image](https://github.com/Rentaku/ML_Price_Prediction/assets/132776192/b0b40e79-2a6f-475b-92e2-0520acb4be30)
 
 
 3. Result of loss and RSquared
-- Mobil
+- Car
 
   Loss            58429.3; R-Squared       0.776639; Val_Loss        78986.9; Val_R-Squared  0.574143; 
  
-- Motor
+- Motorbike
  
   Loss            19678.1; R-Squared       0.649843; Val_Loss        27285.8; Val_R-Squared  0.66169  
     
